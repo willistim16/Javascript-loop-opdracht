@@ -6,12 +6,22 @@
 // ***
 // ****
 // *****
+const VerwachteUitkomsten = ["*", "**", "***", "****", "*****"];
 
+for (let i = 0; i < VerwachteUitkomsten.length; i++) {
+    console.log(VerwachteUitkomsten[i])
+}
 // Tip: je kunt de .repeat() methode gebruiken om een karakter een n aantal keer te herhalen...
 // Dit heb je nog niet geleerd, maar bekijk hiervoor dit MDN-artikel eens: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat
 // ==========================================
 
+// -------------------// Voorbeeld van repeat //----------------
 
+const mood = 'Happy! ';
+
+console.log(`I feel ${mood.repeat(3)}`);
+
+// Expected output: "I feel Happy! Happy! Happy! "
 
 
 
@@ -25,7 +35,15 @@
 // klaar!
 // ==========================================
 
+const word = ["loop...", "loop...", "loop...", "loop..."];
+// console.log(` ${word.repeat(4)}`);
 
+for (let i = 0; i < word.length; i++) {
+    console.log(word[i])
+}
+    if (word.length > 3) {
+        console.log("klaar!")
+    }
 
 
 
@@ -45,7 +63,8 @@
 // >> 9
 // ==========================================
 
-
+const
+for (let i = 0; i < 10; i++);
 
 
 
